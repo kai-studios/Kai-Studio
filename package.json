@@ -12,6 +12,7 @@
     "vite": "^6.0.5"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
     "framer-motion": "^11.16.1",
     "portfolio": "file:",
     "react": "^19.0.0",
