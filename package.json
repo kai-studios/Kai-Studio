@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "framer-motion": "^11.16.1",
+    "portfolio": "file:",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.1"
+  }
+}

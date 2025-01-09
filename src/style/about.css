@@ -1,0 +1,14 @@
+.about {
+    height: 470px;
+    width: 500px;
+    justify-content: center;
+    padding-left: 20%;
+    padding-top: 100px;
+}
+
+.ABIMG {
+    height: 50%;
+    width: 50%;
+    border-radius: 100px;
+    padding-left: 80%;
+}
