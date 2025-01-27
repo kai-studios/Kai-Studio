@@ -15,7 +15,7 @@
 <body data-barba="wrapper">
     <header class="main-header">
         <div class="wrap-logo">
-            <a href="#logo" class="logo">Kai Studio</a>
+            <a href="/index.html" class="logo">Kai Studio</a>
         </div>
         <nav class="main-nav">
             <a href="/index.html">Main</a>
@@ -24,7 +24,7 @@
         </nav>
     </header>    
 
-    <main data-barba="container" data-barba-namespace="PPage">
+    <main class="wow animate__animated animate__fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s" data-barba="container" data-barba-namespace="PPage">
         <div class="NBlock" style="height: 100px;"></div>
         <div class="slider-container">
             <!-- Слайдер -->
@@ -81,7 +81,10 @@
     </footer>
 
     <script src="/src/javascript/ppage-slider.js"></script>
+    <script src="/src/javascript/scroll-anim.js"></script>
     <!--JS Library and API-->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 </body>
 </html>
